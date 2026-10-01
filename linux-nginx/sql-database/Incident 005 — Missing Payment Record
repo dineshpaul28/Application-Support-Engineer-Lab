@@ -1,0 +1,12 @@
+Incident 005 — Missing Payment Record
+Investigated an order that existed in the orders table but had no corresponding payment record.
+
+Used a LEFT JOIN with IS NULL to identify the missing relationship.
+
+Key Learning
+
+SQL can be used as an Application Support troubleshooting tool to trace transactions, identify missing records, compare related data, and provide evidence for escalation.
+
+Disclaimer
+
+This is a personal home lab created for learning and portfolio purposes. It does not represent production experience.
